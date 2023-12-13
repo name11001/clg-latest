@@ -15,8 +15,7 @@
         </div>
         @endif
     <div class="container-xxl flex-grow-1 container-p-y">
-      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Pages/</span>Update Teacher Profile</h4>
-
+      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Pages/</span>Update Teacher Profile</h4></div>
       <!-- Basic Layout & Basic with Icons -->
       <div class="row">
         <!-- Basic Layout -->

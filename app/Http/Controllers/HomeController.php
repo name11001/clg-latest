@@ -15,22 +15,6 @@ Session_start();
 
 class HomeController extends Controller
 {
-
-    // <----Admin-iogin---->
-    public function admin_login()
-    {
-        return view('admin.admin_login');
-    }
-
-    public function Deparment_ce()
-    {
-        return view('deparmentce');
-    }
-    public function Deparment_gd()
-    {
-        return view('deparmentgd');
-    }
-
     public function index()
     {
         $totalteacher=Teacher::count();
@@ -115,5 +99,19 @@ class HomeController extends Controller
         ]);
         return Redirect::to('/');
     }
+        // <----Admin-iogin---->
+        public function admin_login()
+        {
+            return view('admin.admin_login');
+        }
+
+        public function Deparment_ce()
+        {
+            return view('deparmentce');
+        }
+        public function Deparment_gd()
+        {
+            return view('deparmentgd');
+        }
 
 }

@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use DB;
 use App\Http\Requests;
+use App\Models\Student;
+use App\Models\User;
 use Illuminate\Contracts\Session\Session as SessionSession;
 use Illuminate\Support\Facades\DB as FacadesDB;
 use Illuminate\support\Facades\Redirect;
@@ -18,7 +20,12 @@ Session_start();
 class TeacherController extends Controller
 {
     public function index(){
-        return view('admin.dashboard');
+        $teacher=Teacher::count();
+        $students=Student::count();
+        $users=User::all();
+        $subscribe=FacadesDB::table('subscribe')->count();
+        $req=FacadesDB::table('requestquote')->count();
+        return view('admin.dashboard', compact('teacher', 'students', 'subscribe', 'users','req'));
     }
     public function showform(){
         return view('admin.addnew');
@@ -146,6 +153,18 @@ class TeacherController extends Controller
             ->delete();
             FacadesSession::put('message','Contact Information Deleted Successfully!');
         return Redirect::to('contactinfo');
+    }
+    public function requestinfo(){
+       $requestinfo=FacadesDB::table('requestquote')->get();
+        return view('admin.requestquote', compact('requestinfo'));
+    }
+    public function requestinfodelete($id)
+    {
+        FacadesDB::table('requestquote')
+            ->where('id',$id)
+            ->delete();
+            FacadesSession::put('message','RequestQuote Information Deleted Successfully!');
+        return Redirect::to('/admin/requestinfo');
     }
 
 

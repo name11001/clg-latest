@@ -16,7 +16,7 @@
     </p>
 
     <div class="container-xxl flex-grow-1 container-p-y">
-      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></h4>
+      <h4 class="fw-bold py-3 mb-4">Pages/ <span class="text-muted fw-light">RequestQuote</h4>
 
       <!-- Basic Bootstrap Table -->
       <div class="card">
@@ -25,30 +25,24 @@
           <table class="table">
             <thead>
               <tr>
-                <th>name</th>
-                <th>Email</th>
+                <th class="text-center">First Name</th>
+                <th class="text-center">last Name</th>
+                <th class="text-center">Course Name</th>
+                <th class="text-center">Phone</th>
 
                 <th>Actions</th>
               </tr>
             </thead>
-            @foreach($all_subscribe_info as $v_subscribe)
+            @foreach($requestinfo as $reqinfo)
             <tbody class="table-border-bottom-0">
-                <td style="text-align: center">{{ $v_subscribe->name }}</td>
-                <td style="text-align: center">{{ $v_subscribe->email }}</td>
+                <td class="text-center">{{ $reqinfo->first_name }}</td>
+                <td class="text-center">{{ $reqinfo->last_name }}</td>
+                <td class="text-center">{{$reqinfo->course_name}}</td>
+                <td class="text-center">{{ $reqinfo->phone }}</td>
 
                 <td>
-                    <a href="{{url('deletesubscribe', $v_subscribe->email)}}" class="btn btn-danger">Delete</a>
+                    <a href="{{route('destroy.req', $reqinfo->id)}}" class="btn btn-danger" class="text-center">Delete</a>
                 </td>
-
-
-                {{-- @foreach ($subscribs as $subscrib)
-                <td>{{$subscrib->name}}</td>
-                <td>{{$subscrib->email}}</td>
-                <td>
-                    <a href="{{route('teachersedit', $teacher->id)}}" class="btn btn-primary">Edit</a>
-                    <a href="{{route('deleteprofile', $teacher->id)}}" class="btn btn-danger">Delete</a>
-                </td>
-                @endforeach --}}
               <tr>
 
               </tr>

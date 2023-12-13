@@ -36,11 +36,11 @@ class AdminController extends Controller
                 ->first();
 
                 if ($result){
-                    Session::put('admin_name',$result->admin_name);
-                    Session::put('admin_id',$result->admin_id);
+                    FacadesSession::put('admin_name',$result->admin_name);
+                    FacadesSession::put('admin_id',$result->admin_id);
                     return redirect('/dashboard');
                 }else{
-                    Session::put('message','Email pr password Invalid');
+                    FacadesSession::put('message','Email pr password Invalid');
                     return redirect('adminlogin');
                 }
 
@@ -49,11 +49,7 @@ class AdminController extends Controller
     public function logout()
     {
 
-        Session::flush();
-        return Redirect::to('/adminlogin');
-
-        // Session::put('admin_name',null);
-        // Session::put('admin_id',null);
-        // return Redirect::to('/admin');
+        FacadesSession::flush();
+        return redirect()->route('homepage');
     }
 }

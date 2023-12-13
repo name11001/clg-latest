@@ -19,11 +19,11 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(HomeController::class)->group(function () {
-    Route::get('/', 'index');
+    Route::get('/', 'index')->name('homepage');
     Route::get('/about', 'AboutUs');
     Route::get('/cont', 'contactus');
-    Route::get('deparments','Deparment_ce');
-    Route::get('deparment','Deparment_gd');
+    Route::get('/deparment/computer','Deparment_ce');
+    Route::get('/deparment/graphics','Deparment_gd');
     Route::post('/subscribe', 'addsubscribe');
     Route::post('/contactinfo', 'contact_info');
     Route::post('/requestquote', 'addrequestquote')->name('requestq');
@@ -33,7 +33,7 @@ Route::controller(HomeController::class)->group(function () {
 
 
 // ***ADMIN***
-Route::get('adminlogin',[AdminController::class, 'admin_login']);
+Route::get('adminlogin',[AdminController::class, 'admin_login'])->name('admin.login');
 Route::get('dashboard', [AdminController::class, 'show_dashboard']);
 Route::post('admin-dashboard',[AdminController::class, 'dashboard']);
 Route::get('logout', [AdminController::class, 'logout']);
@@ -48,15 +48,16 @@ Route::post('/admin/update-profile', [TeacherController::class, 'update'])->name
 Route::get('/admin/destory/{id}', [TeacherController::class, 'destroy'])->name('deleteprofile');
 
 // ***Subscribe MX**
-Route::get('/subscribe', [TeacherController::class, 'allsubscribe']);
+Route::get('/subscribe', [TeacherController::class, 'allsubscribe'])->name('user.sub.info');
 Route::get('/deletesubscribe/{email}', [TeacherController::class, 'subscribedestroy']);
 
 // ***Contact Info**
-Route::get('/contactinfo', [TeacherController::class, 'allcontactinfo']);
+Route::get('/contactinfo', [TeacherController::class, 'allcontactinfo'])->name('user.contact.info');
 Route::get('/deletecontactinfo/{email}', [TeacherController::class, 'contactinfodelete']);
 
-// ***Request A Quote Mx***
-
+// Request A Quote
+Route::get('/admin/requestinfo', [TeacherController::class , 'requestinfo'])->name('req.info');
+Route::get('/admin/requestq/destroy/{id}', [TeacherController::class, 'requestinfodelete'])->name('destroy.req');
 
 //controller Students
 Route::get('/admin/student-info', [StudentController::class, 'index'])->name('studentinfo');

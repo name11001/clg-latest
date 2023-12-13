@@ -225,8 +225,8 @@
           <p>Our institution provides 11 courses. Among them, our computer department has 2 courses. <br> They are...</p>
         </div>
       </div>
-            <div class="d-flex justify-content-center"
-              <div class="row">
+            <div class="d-flex justify-content-center">
+              <div class="row d-flex justify-content-center">
                   <div class="col-md-5 course ftco-animate">
                       <div class="img" style="background-image: url(images/CE.jpg);"></div>
                       <div class="text pt-4">
@@ -235,9 +235,9 @@
                               <span><i class="icon-table mr-2"></i>10 seats</span>
                               <span><i class="icon-calendar mr-2"></i>4 Years</span>
                           </p>
-                          <h3><a href="#">Diploma In Computer Engineering</a></h3>
+                          <h3><a href="{{url('/deparment/computer')}}">Diploma In Computer Engineering</a></h3>
                           <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-                          <p><a href="#" class="btn btn-primary">Read More</a></p>
+                          <p><a href="{{url('/deparment/computer')}}" class="btn btn-primary">Read More</a></p>
                       </div>
                   </div>
                   <div class="col-md-5 course ftco-animate">
@@ -248,14 +248,13 @@
                               <span><i class="icon-table mr-2"></i>10 seats</span>
                               <span><i class="icon-calendar mr-2"></i>4 Years</span>
                           </p>
-                          <h3><a href="#">Graphic design</a></h3>
+                          <h3><a href="{{url('/deparment/graphics')}}">Graphic design</a></h3>
                           <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-                          <p><a href="#" class="btn btn-primary">Read More</a></p>
+                          <p><a href="{{url('/deparment/graphics')}}" class="btn btn-primary">Read More</a></p>
                       </div>
                   </div>
                   </div>
               </div>
-            </div>
           </div>
       </section>
 

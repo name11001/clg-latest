@@ -181,8 +181,15 @@
               <!-----Contact Info--->
               <li class="menu-item">
                 <a href="{{url('contactinfo')}}" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-user-check"></i>
+                    <i class='menu-icon tf-icons bx bxs-contact' ></i>
                   <div data-i18n="Analytics">Contact Info</div>
+                </a>
+              </li>
+              <!-- Request Quote -->
+              <li class="menu-item">
+                <a href="{{route('req.info')}}" class="menu-link">
+                    <i class='menu-icon tf-icons bx bx-message-detail'></i>
+                  <div data-i18n="Analytics">RequestQuote Info </div>
                 </a>
               </li>
 
@@ -283,10 +290,10 @@
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#">
-                            {{-- <i class="bx bx-power-off me-2"></i> --}}
-                            <li><a href="{{url('logout') }}"><span class="align-middle">Log Out</span></a></li>
-                          </a>
+                    <li> <a class="dropdown-item" href="{{url('logout')}}">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                        </a>
                     </li>
                   </ul>
                 </li>
