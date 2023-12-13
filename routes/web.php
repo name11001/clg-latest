@@ -22,6 +22,8 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index');
     Route::get('/about', 'AboutUs');
     Route::get('/cont', 'contactus');
+    Route::get('deparments','Deparment_ce');
+    Route::get('deparment','Deparment_gd');
     Route::post('/subscribe', 'addsubscribe');
     Route::post('/contactinfo', 'contact_info');
     Route::post('/requestquote', 'addrequestquote')->name('requestq');

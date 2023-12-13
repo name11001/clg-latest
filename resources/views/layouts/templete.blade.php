@@ -34,7 +34,14 @@
 	      <div class="collapse navbar-collapse d-flex justify-content-end" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="{{url('/')}}" class="nav-link pl-0">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Deparments</a></li>
+                <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Departments</a>
+                        <div class="dropdown-menu m-0">
+                            <a class='dropdown-item' href='/dhaka-campus'></a>
+                           <li> <a class='dropdown-item' href="{{url("/deparments") }}">Diploma In Computer Engineering</a></li>
+                            <a class='dropdown-item' href="{{url("/deparment") }}">Diploma In Graphic design</a>
+                        </div>
+                    </div>
 	        	<li class="nav-item"><a href="{{url('/about')}}" class="nav-link">About</a></li>
 
 	            <li class="nav-item"><a href="{{url('cont')}}" class="nav-link">Contact</a></li>
@@ -68,8 +75,6 @@
                 <ul class="list-unstyled">
                   <li><a href="{{url('/')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
                   <li><a href="{{url('/about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
                   <li><a href="{{url('/cont')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
                 </ul>
               </div>

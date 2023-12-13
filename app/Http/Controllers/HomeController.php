@@ -22,6 +22,15 @@ class HomeController extends Controller
         return view('admin.admin_login');
     }
 
+    public function Deparment_ce()
+    {
+        return view('deparmentce');
+    }
+    public function Deparment_gd()
+    {
+        return view('deparmentgd');
+    }
+
     public function index()
     {
         $totalteacher=Teacher::count();
