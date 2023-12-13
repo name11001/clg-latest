@@ -103,13 +103,25 @@
                   </ul>
               </div>
           </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center d-flex">
+                <div class="col-md-6">
+                    <p>Copyright &copy; <b><a style="color:white)" href="https://www.sipi.edu.bd/">Shyamoli Ideal Polytechnic Institute.</a> </b>All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Made by: Mx Borhan</p>
+                </div>
+            </div>
+          </div>
+        </div>
       </footer>
 
 
 
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  {{-- <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> --}}
 
 
   <script src="{{asset("js/jquery.min.js")}}"></script>
