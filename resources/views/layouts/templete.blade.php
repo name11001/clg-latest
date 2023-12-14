@@ -110,7 +110,7 @@
                     <p>Copyright &copy; <b><a style="color:white)" href="https://www.sipi.edu.bd/">Shyamoli Ideal Polytechnic Institute.</a> </b>All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6">
-                    <p>Made by: Mx Borhan</p>
+                    <p>Made by: Mx & Jw</p>
                 </div>
             </div>
           </div>

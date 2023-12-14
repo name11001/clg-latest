@@ -15,22 +15,38 @@
         4. Publication Graphic Design: This specialization caters to the design of print materials such as magazines, newspapers, and books, enhancing readability and visual appeal.</p>
     </div>
 
-    <h1>Diploma in Computer Science & Engineering Course Duration And Assessment</h1>
-    <p><strong> in computer science and engineering</strong> is a 4-year long program consisting of 8 semesters (1 Semester = 6 months). The final and the midterm exams of each semester are conducted under the supervision of the Bangladesh Technical Education Board (BTEB). All the exams question, answer script checking and final results are published by the BTEB. Besides this, each student has to attend the regular class test, quiz test, and semester final project. After successful completion, a student will receive a Diploma Certificate.</p>
+    <h1>Diploma in Graphic design Course Duration And Assessment</h1>
+    <p><strong> Program Objective
 
-    <p> are many students who are interested in a diploma in computer science in Bangladesh. If you are one of them, apply for the computer diploma course in Bangladesh now!  The Admission procedure starts after the SSC results. So, you can start a diploma in computer engineering course after 10th. There is mainly one session in a year. Students have to follow the admission announcement which is given by the Bangladesh Technical Education Board Authority. Usually, the admission procedure starts after May (depending on the SSC Result).</p>
+        The Graphic Design in Engineering program in Bangladesh aims to educate students in the art and science of graphic design, focusing on its application within engineering contexts. The primary objectives of this program are to:
 
-    <h1>Career Prospects Of Diploma In Computer Engineering</h1>
-    <p>A four years long Diploma in Computer Engineering is highly valued today, among the young generation for its work/job-oriented approaches, syllabuses. After completing SSC, a student can join in this course and receive the status of a Diploma Engineer, from where they can enter the job field so easily. Daffodil Polytechnic Institute is one of the best private Polytechnic institutes of Bangladesh that provides technical education in Bangladesh with ensuring quality.</p>
+        Develop expertise in graphic design principles, enabling students to create visually effective engineering-related materials.
+        Integrate engineering concepts and data into designs for clear communication.
+        Instill proficiency in industry-standard design software.
+        Foster problem-solving skills in conveying technical information.
+        Promote interdisciplinary collaboration, ethical awareness, and cultural sensitivity.
+        Equip students for careers in graphic design for engineering or entrepreneurship in this field.
+        Encourage research, innovation, and community engagement for real-world impact.
+        This program seeks to produce graduates who excel in graphic design within an engineering framework, facilitating effective communication and problem-solving in the field.</p>
 
-    <h1>Career Path</h1>
-    <p>Compare the best computer jobs by employment projections, key growth factors, salary and more, then click the links of your favorite IT career paths for deep dive career profiles featuring skills and responsibilities, desirable certifications, wage analyses, education requirements, training & degree programs, local job openings and tips from IT insiders.</p>
+    <h1>Admission Requirement:</h1>
+    <p>
+        At least 2.00 GPA in SSC or Equivalent Examination any group since 2012 or after & also passed/failed students of HSC examination.<br><br>
 
-    <h1>Admission Eligibility</h1>
-    <p>Minimum SSC equivalent from any discipline with minimum GPA: 2.00 .</p>
+        H.S.C (Science) students can take admission in the 3rd semester directly and H.S.C [Vocational (Science)] students can take admission in the 4th semester directly.</p>
 
-    <p>HSC (Science) Students can directly join in 3rd Semester
-    & HSC (Vocational) students can directly join in 4th Semester.( Passing year 2011, GPA: 2.00 )</p>
+    <h1>Lab Facilities</h1>
+    <ul style="margin-bottom:0in;margin-top:0in;" type="disc">
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Circuit Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Computer Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Electronics Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Drawing Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Communication Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Microwave Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Software lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Hardware Lab</span></li>
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Networking lab</span></li>
+    </ul>
 
     <h1>Admission Guidelines</h1>
     <p>Students are advice to collect admission form the admission office.</p>
@@ -55,34 +71,5 @@
     </div>
 
 
-{{-- <div class="d-flex justify-content-center"
-              <div class="row">
-                  <div class="col-md-5 course ftco-animate">
-                      <div class="img" style="background-image: url(images/CE.jpg);"></div>
-                      <div class="text pt-4">
-                          <p class="meta d-flex">
-                              <span><i class="icon-user mr-2"></i>Mr. Khan</span>
-                              <span><i class="icon-table mr-2"></i>10 seats</span>
-                              <span><i class="icon-calendar mr-2"></i>4 Years</span>
-                          </p>
-                          <h3><a href="#">Diploma In Computer Engineering</a></h3>
-                          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-                          <p><a href="#" class="btn btn-primary">Read More</a></p>
-                      </div>
-                  </div>
-                  <div class="col-md-5 course ftco-animate">
-                      <div class="img" style="background-image: url(images/gpdg.jpg);"></div>
-                      <div class="text pt-4">
-                          <p class="meta d-flex">
-                              <span><i class="icon-user mr-2"></i>Mr. Khan</span>
-                              <span><i class="icon-table mr-2"></i>10 seats</span>
-                              <span><i class="icon-calendar mr-2"></i>4 Years</span>
-                          </p>
-                          <h3><a href="#">Graphic design</a></h3>
-                          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-                          <p><a href="#" class="btn btn-primary">Read More</a></p>
-                      </div>
-                  </div>
-                  </div>
-              </div> --}}
+
 @endsection
