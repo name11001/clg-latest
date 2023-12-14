@@ -9867,3 +9867,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.hover-effect:hover{
+    /* background-color:red; */
+    color: #FF1F1F !important;
+    transition: 2s !important;
+}

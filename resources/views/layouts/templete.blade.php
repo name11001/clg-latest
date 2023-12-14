@@ -32,19 +32,20 @@
 	      </button>
           <a href="{{url('/')}}"><img id="navbar-icon" src="{{asset('images/logo.png')}}" alt="Navbar Icon" height="55px" width="55px"></a>
 	      <div class="collapse navbar-collapse d-flex justify-content-end" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="{{url('/')}}" class="nav-link pl-0">Home</a></li>
+	        <ul class="navbar-nav mr-auto hover-effect">
+	        	<li class="nav-item"><a href="{{url('/')}}" class="nav-link pl-0 hover-effect">Home</a></li>
                 <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Departments</a>
+                        <a href="#" class="nav-link dropdown-toggle hover-effect" data-toggle="dropdown">Departments</a>
                         <div class="dropdown-menu m-0">
                             <a class='dropdown-item' href='/dhaka-campus'></a>
-                           <li> <a class='dropdown-item' href="{{url("deparment/computer") }}">Diploma In Computer Engineering</a></li>
-                            <a class='dropdown-item' href="{{url("deparment/graphics") }}">Diploma In Graphic design</a>
+                           <li> <a class='dropdown-item hover-effect' href="{{url("deparment/computer") }}">Diploma In Computer Engineering</a></li>
+                            <a class='dropdown-item hover-effect' href="{{url("deparment/graphics") }}">Diploma In Graphic design</a>
                         </div>
                     </div>
-	        	<li class="nav-item"><a href="{{url('/about')}}" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a  href="{{url('/about')}}" class="nav-link hover-effect">About</a></li>
 
-	            <li class="nav-item"><a href="{{url('cont')}}" class="nav-link">Contact</a></li>
+	            <li class="nav-item"><a href="{{url('cont')}}" class="nav-link hover-effect">Contact</a></li>
+	            <li class="nav-item"><a href="" class="hover-effect nav-link">Log In</a></li>
 
 	        </ul>
 	      </div>
