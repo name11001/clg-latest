@@ -22,7 +22,7 @@ class AdminController extends Controller
          return view('admin.admin_login');
     }
     public function show_dashboard()
-    {
+    {   $this->AdminAutCheck();
         return view('admin.dashboard');
     }
 
@@ -38,9 +38,9 @@ class AdminController extends Controller
                 if ($result){
                     FacadesSession::put('admin_name',$result->admin_name);
                     FacadesSession::put('admin_id',$result->admin_id);
-                    return redirect('/dashboard');
+                    return redirect('dashboard');
                 }else{
-                    FacadesSession::put('message','Email pr password Invalid');
+                    FacadesSession::put('message','Email & password Invalid');
                     return redirect('adminlogin');
                 }
 
@@ -52,4 +52,15 @@ class AdminController extends Controller
         FacadesSession::flush();
         return redirect()->route('homepage');
     }
+    public function AdminAutCheck()
+    {
+        $admin_id=Session::get('admin_id');
+        if ($admin_id){
+            return;
+        }
+        else{
+            return redirect('adminlogin')->send();
+        }
+    }
+
 }

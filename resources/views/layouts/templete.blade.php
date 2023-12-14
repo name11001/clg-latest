@@ -38,8 +38,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Departments</a>
                         <div class="dropdown-menu m-0">
                             <a class='dropdown-item' href='/dhaka-campus'></a>
-                           <li> <a class='dropdown-item' href="{{url("/deparments") }}">Diploma In Computer Engineering</a></li>
-                            <a class='dropdown-item' href="{{url("/deparment") }}">Diploma In Graphic design</a>
+                           <li> <a class='dropdown-item' href="{{url("deparment/computer") }}">Diploma In Computer Engineering</a></li>
+                            <a class='dropdown-item' href="{{url("deparment/graphics") }}">Diploma In Graphic design</a>
                         </div>
                     </div>
 	        	<li class="nav-item"><a href="{{url('/about')}}" class="nav-link">About</a></li>

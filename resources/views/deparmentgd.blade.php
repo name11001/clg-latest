@@ -6,10 +6,14 @@
 <div class="container">
     <div>
         <h1>Diploma In Graphic design</h1>
-    <p><strong> in Computer Engineering program</strong> can be a good choice for your career. Now Computers are an amazing creation of science and technology development. For the last twenty years, the computer industry has been described as the fastest growing industry worldwide. Research has shown that since 1998, most jobs have been created worldwide in computer and computer-related fields. With the development of computer and communication technology, there has been a huge change in the workplace of every government and non-government organization. Therefore, from healthcare to business, educational institutions have created endless opportunities for career building in all fields.</p>
-    </div>
+    <p><strong> 1. Visual Identity Graphic Design: This type concentrates on shaping the visual identity of brands and organizations, with a primary emphasis on logo design and brand representation.<br><br>
 
-    <p>As a result of this globalization, a student now has the opportunity to build a career beyond the borders of the country at the international level. There are lots of student consultancy firm in Bangladesh. But its success largely depends on the student’s timely decision. After completing the Diploma in Computer Engineering course at polytechnic institute under Bangladesh Technical Education Board, a student gets ample opportunity to work in various fields including programming, software firm, IT firm, industrial factory in different government and non-government organizations.</p>
+        2. Marketing & Advertising Graphic Design: Here, the goal is to craft visually captivating materials for marketing campaigns and advertisements, ensuring they resonate with the target audience.<br><br>
+
+        3. User Interface Graphic Design: UI design is pivotal in shaping the user experience for digital platforms, focusing on the layout and visual elements of websites and applications.<br><br>
+
+        4. Publication Graphic Design: This specialization caters to the design of print materials such as magazines, newspapers, and books, enhancing readability and visual appeal.</p>
+    </div>
 
     <h1>Diploma in Computer Science & Engineering Course Duration And Assessment</h1>
     <p><strong> in computer science and engineering</strong> is a 4-year long program consisting of 8 semesters (1 Semester = 6 months). The final and the midterm exams of each semester are conducted under the supervision of the Bangladesh Technical Education Board (BTEB). All the exams question, answer script checking and final results are published by the BTEB. Besides this, each student has to attend the regular class test, quiz test, and semester final project. After successful completion, a student will receive a Diploma Certificate.</p>
