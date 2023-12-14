@@ -5,6 +5,15 @@
 @section('content')
 <div class="content-wrapper">
     <!-- Content -->
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
 
     <div class="container-xxl flex-grow-1 container-p-y">
       <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Student </h4>
@@ -15,7 +24,7 @@
         <small class="text-muted float-end">St</small>
       </div>
       <div class="card-body">
-        <form  class="row g-3"  action="{{ route('students.update', $student->id) }}" method="post" enctype="multipart/form-data">
+        <form  class="row g-3"  action="{{route('students.update', $student->id)}}" method="post" enctype="multipart/form-data">
             @csrf
             <input type="hidden" name="student_id" value="{{$student->id}}" >
           <div class="mb-3 col-md-6">

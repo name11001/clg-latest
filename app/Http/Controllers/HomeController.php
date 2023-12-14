@@ -19,7 +19,8 @@ class HomeController extends Controller
     {
         $totalteacher=Teacher::count();
         $totalstudent=Student::count();
-        return view('welcome', compact('totalteacher','totalstudent'));
+        $teachers=Teacher::all();
+        return view('welcome', compact('totalteacher','totalstudent','teachers'));
     }
     public function AboutUs()
     {

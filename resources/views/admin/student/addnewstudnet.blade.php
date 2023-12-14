@@ -5,15 +5,19 @@
 @section('content')
 <div class="content-wrapper">
     <!-- Content -->
-    @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif
+        @if ($errors->any())
+        @foreach ($errors->all() as $error)
+        <div class="col-md mb-4 mb-md-0">
+              <div class="card-body">
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    {{$error}}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          @endforeach
+            @endif
 
     <div class="container-xxl flex-grow-1 container-p-y">
       <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Student </h4>

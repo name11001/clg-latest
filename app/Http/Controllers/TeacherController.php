@@ -13,6 +13,8 @@ use Illuminate\Contracts\Session\Session as SessionSession;
 use Illuminate\Support\Facades\DB as FacadesDB;
 use Illuminate\support\Facades\Redirect;
 use Illuminate\Support\Facades\Session as FacadesSession;
+use Illuminate\Pagination\Paginator;
+
 use Session;
 
 Session_start();
@@ -62,7 +64,7 @@ class TeacherController extends Controller
         return redirect()->route('info')->with('message', "Teacher Profile Added Successfully!");
     }
     public function allteacherifno(){
-        $teachers=Teacher::all();
+        $teachers=Teacher::paginate(2);
         return view('admin.allteacherslist', compact('teachers'));
     }
     public function edit($id) {

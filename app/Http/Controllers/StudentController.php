@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Storage;
 class StudentController extends Controller
 {
     public function index(){
-        $students=Student::all();
+        $students=Student::paginate(2);
         return view('admin.student.allstudentsinfo',compact('students'));
     }
     public function studentform(){
@@ -98,8 +98,7 @@ class StudentController extends Controller
             'gender'=>$request->gender,
             'image' => $imagePath,
         ]);
-
-        return redirect()->route('studentinfo')->with('message', "Student Profile Updated Successfully!");
+        return redirect()->route('studentinfo')->with('message', "Student Profile Added Successfully!");
     }
     public function destroy($id){
         Student::find($id)->delete();
