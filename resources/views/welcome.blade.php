@@ -300,7 +300,7 @@
       </section>
 {{-- mmm --}}
 
-  <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
+  <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/rq.jpeg);" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
           <div class="row justify-content-end">
@@ -437,8 +437,7 @@
     <div class="container">
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
-          <h2 class="mb-4">Student Says About Us</h2>
-          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+          <h2 class="mb-4">Students Result</h2>
         </div>
       </div>
       <div class="row ftco-animate justify-content-center">
@@ -446,71 +445,76 @@
           <div class="carousel-testimony owl-carousel">
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
-                </div>
-                <div class="text ml-2">
+                {{-- <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
+                </div> --}}
+                <div class="text ml-3">
                     <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
+                    {{-- <i class="icon-quote-left"></i> --}}
                   </span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <img src="images/r5.jpeg" alt="">
+                  {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                   <p class="name">Racky Henderson</p>
-                  <span class="position">Father</span>
+                  <span class="position">Father</span> --}}
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img mr-4" style="background-image: url(images/teacher-2.jpg)">
-                </div>
+                {{-- <div class="user-img mr-4" style="background-image: url(images/teacher-2.jpg)">
+                </div> --}}
                 <div class="text ml-2">
                     <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
+                    {{-- <i class="icon-quote-left"></i> --}}
                   </span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <img src="images/r4.jpeg" alt="">
+                  {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                   <p class="name">Henry Dee</p>
-                  <span class="position">Mother</span>
+                  <span class="position">Mother</span> --}}
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img mr-4" style="background-image: url(images/teacher-3.jpg)">
-                </div>
+                {{-- <div class="user-img mr-4" style="background-image: url(images/teacher-3.jpg)">
+                </div> --}}
                 <div class="text ml-2">
                     <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
+                    {{-- <i class="icon-quote-left"></i> --}}
                   </span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <img src="images/r3.jpeg" alt="">
+                  {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                   <p class="name">Mark Huff</p>
-                  <span class="position">Mother</span>
+                  <span class="position">Mother</span> --}}
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img mr-4" style="background-image: url(images/teacher-4.jpg)">
-                </div>
+                {{-- <div class="user-img mr-4" style="background-image: url(images/r1.jpeg)">
+                </div> --}}
                 <div class="text ml-2">
                     <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
+                    {{-- <i class="icon-quote-left"></i> --}}
                   </span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <img src="images/r1.jpeg" alt="">
+                  {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                   <p class="name">Rodel Golez</p>
-                  <span class="position">Mother</span>
+                  <span class="position">Mother</span> --}}
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap d-flex">
-                <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
-                </div>
+                {{-- <div class="user-img mr-4" style="background-image: url(images/teacher-1.jpg)">
+                </div> --}}
                 <div class="text ml-2">
                     <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
+                    {{-- <i class="icon-quote-left"></i> --}}
                   </span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <img src="images/r2.jpeg" alt="">
+                  {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                   <p class="name">Ken Bosh</p>
-                  <span class="position">Mother</span>
+                  <span class="position">Mother</span> --}}
                 </div>
               </div>
             </div>
@@ -524,28 +528,28 @@
       <div class="container-wrap">
           <div class="row no-gutters">
                   <div class="col-md-3 ftco-animate">
-                      <a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/course-1.jpg);">
+                      <a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/sm.jpeg);">
                           <div class="icon mb-4 d-flex align-items-center justify-content-center">
                           <span class="icon-instagram"></span>
                       </div>
                       </a>
                   </div>
                   <div class="col-md-3 ftco-animate">
-                      <a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_2.jpg);">
+                      <a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/sm2.jpeg);">
                           <div class="icon mb-4 d-flex align-items-center justify-content-center">
                           <span class="icon-instagram"></span>
                       </div>
                       </a>
                   </div>
                   <div class="col-md-3 ftco-animate">
-                      <a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_3.jpg);">
+                      <a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/sm3.jpeg);">
                           <div class="icon mb-4 d-flex align-items-center justify-content-center">
                           <span class="icon-instagram"></span>
                       </div>
                       </a>
                   </div>
                   <div class="col-md-3 ftco-animate">
-                      <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_4.jpg);">
+                      <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/sm4.jpeg);">
                           <div class="icon mb-4 d-flex align-items-center justify-content-center">
                           <span class="icon-instagram"></span>
                       </div>
