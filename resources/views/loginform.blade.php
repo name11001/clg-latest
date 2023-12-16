@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Login Page with Username and Password Example</title>
+  <title>LogIn</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{asset('css/custom-style.css')}}">
 
@@ -27,7 +27,7 @@
       </div>
 
       <div class="form__field">
-        <input type="submit" value="Sign In">
+        <input type="submit" value="Log In">
       </div>
 
     </form>

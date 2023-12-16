@@ -68,8 +68,11 @@ Route::group(['middleware'=>['web', 'checkAdmin']], function(){
 });
 
 //login and logout
-Route::get('/login', [AuthController::class, 'loginform'])->name('login.form');
-Route::post('/login', [AuthController::class, 'login'])->name('login');
-Route::get('/logout', [AuthController::class, 'logout'])->name('log.out');
+Route::controller(AuthController::class)->group(function(){
+    Route::get('/login', 'loginform')->name('login.form');
+    Route::post('/login', 'login')->name('login');
+    Route::get('/logout', 'logout')->name('log.out');
+
+});
 
 
