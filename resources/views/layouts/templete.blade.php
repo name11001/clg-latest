@@ -45,7 +45,7 @@
 	        	<li class="nav-item"><a  href="{{url('/about')}}" class="nav-link hover-effect">About</a></li>
 
 	            <li class="nav-item"><a href="{{url('cont')}}" class="nav-link hover-effect">Contact</a></li>
-	            <li class="nav-item"><a href="" class="hover-effect nav-link">Log In</a></li>
+	            <li class="nav-item"><a href="{{route('login.form')}}" class="hover-effect nav-link">Log In</a></li>
 
 	        </ul>
 	      </div>

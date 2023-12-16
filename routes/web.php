@@ -4,6 +4,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,39 +32,44 @@ Route::controller(HomeController::class)->group(function () {
 });
 
 
+//all middleware controller
+Route::group(['middleware'=>['web', 'checkAdmin']], function(){
+    Route::controller(TeacherController::class)->group(function (){
+        Route::get('/admin/dashboard',  'index')->name('dashboard');
+        Route::get('/admin/allteacherinfo',  'allteacherifno')->name('info');
+        Route::post('/admin/addnewteacher',  'addnewteacer')->name('addnew');
+        Route::get('/admin/add', 'showform')->name('show');
+        Route::get('admin/edit/{id}',  'edit')->name('teachersedit');
+        Route::post('/admin/update-profile',  'update')->name('update');
+        Route::get('/admin/destory/{id}',  'destroy')->name('deleteprofile');
 
-// ***ADMIN***
-Route::get('adminlogin',[AdminController::class, 'admin_login'])->name('admin.login');
-Route::get('dashboard', [AdminController::class, 'show_dashboard']);
-Route::post('admin-dashboard',[AdminController::class, 'dashboard']);
-Route::get('logout', [AdminController::class, 'logout']);
+        //subscribe info
+        Route::get('/subscribe',  'allsubscribe')->name('user.sub.info');
+        Route::get('/deletesubscribe/{email}',  'subscribedestroy');
+        //contrct info
+        Route::get('/contactinfo',  'allcontactinfo')->name('user.contact.info');
+        Route::get('/deletecontactinfo/{email}', 'contactinfodelete');
 
-//Teacher
-Route::get('/admin/dashboard', [TeacherController::class, 'index'])->name('dashboard');
-Route::get('/admin/allteacherinfo', [TeacherController::class, 'allteacherifno'])->name('info');
-Route::post('/admin/addnewteacher', [TeacherController::class, 'addnewteacer'])->name('addnew');
-Route::get('/admin/add',[TeacherController::class, 'showform'])->name('show');
-Route::get('admin/edit/{id}', [TeacherController::class, 'edit'])->name('teachersedit');
-Route::post('/admin/update-profile', [TeacherController::class, 'update'])->name('update');
-Route::get('/admin/destory/{id}', [TeacherController::class, 'destroy'])->name('deleteprofile');
+        //request Quote info
+        Route::get('/admin/requestinfo',  'requestinfo')->name('req.info');
+        Route::get('/admin/requestq/destroy/{id}', 'requestinfodelete')->name('destroy.req');
 
-// ***Subscribe MX**
-Route::get('/subscribe', [TeacherController::class, 'allsubscribe'])->name('user.sub.info');
-Route::get('/deletesubscribe/{email}', [TeacherController::class, 'subscribedestroy']);
+        //student
+    Route::controller(StudentController::class)->group(function(){
+        Route::get('/admin/student-info',  'index')->name('studentinfo');
+        Route::get('/admin/student-form',  'studentform')->name('student.form');
+        Route::post('/admin/add-student', 'addnewstudent')->name('add.new.student');
+        Route::get('/admin/student-edit/{id}', 'editstudent')->name('edit.student');
+        Route::post('/admin/student/update-profile/{id}', 'updateprofile')->name('students.update');
+        Route::get('/admin/student/destroy/{id}',  'destroy')->name('destroy');
+        });
+    });
 
-// ***Contact Info**
-Route::get('/contactinfo', [TeacherController::class, 'allcontactinfo'])->name('user.contact.info');
-Route::get('/deletecontactinfo/{email}', [TeacherController::class, 'contactinfodelete']);
+});
 
-// Request A Quote
-Route::get('/admin/requestinfo', [TeacherController::class , 'requestinfo'])->name('req.info');
-Route::get('/admin/requestq/destroy/{id}', [TeacherController::class, 'requestinfodelete'])->name('destroy.req');
+//login and logout
+Route::get('/login', [AuthController::class, 'loginform'])->name('login.form');
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/logout', [AuthController::class, 'logout'])->name('log.out');
 
-//controller Students
-Route::get('/admin/student-info', [StudentController::class, 'index'])->name('studentinfo');
-Route::get('/admin/student-form', [StudentController::class, 'studentform'])->name('student.form');
-Route::post('/admin/add-student', [StudentController::class, 'addnewstudent'])->name('add.new.student');
-Route::get('/admin/student-edit/{id}', [StudentController::class, 'editstudent'])->name('edit.student');
-Route::post('/admin/student/update-profile/{id}', [StudentController::class, 'updateprofile'])->name('students.update');
-Route::get('/admin/student/destroy/{id}', [StudentController::class, 'destroy'])->name('destroy');
 
