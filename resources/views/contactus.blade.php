@@ -9,7 +9,7 @@
         <div class="col-md-3 d-flex">
             <div class="bg-light align-self-stretch box p-4 text-center">
                 <h3 class="mb-4">Address</h3>
-              <p>16/<a href="{{route('admin.login')}}">C-D</a>,Bashbari Road, Mohammadpur, Dhaka-1207</p>
+              <p>16/C-D</a>,Bashbari Road, Mohammadpur, Dhaka-1207</p>
             </div>
         </div>
         <div class="col-md-3 d-flex">
