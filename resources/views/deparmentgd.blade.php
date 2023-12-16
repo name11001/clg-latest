@@ -6,7 +6,7 @@
 <div class="container">
     <div>
         <h1>Diploma In Graphic design</h1>
-    <p><strong> 1. Visual Identity Graphic Design: This type concentrates on shaping the visual identity of brands and organizations, with a primary emphasis on logo design and brand representation.<br><br>
+    <p>1.<strong> Visual Identity Graphic Design:</strong> This type concentrates on shaping the visual identity of brands and organizations, with a primary emphasis on logo design and brand representation.<br><br>
 
         2. Marketing & Advertising Graphic Design: Here, the goal is to craft visually captivating materials for marketing campaigns and advertisements, ensuring they resonate with the target audience.<br><br>
 
@@ -16,7 +16,7 @@
     </div>
 
     <h1>Diploma in Graphic design Course Duration And Assessment</h1>
-    <p><strong> Program Objective
+    <p><strong> Program Objective</strong>
 
         The Graphic Design in Engineering program in Bangladesh aims to educate students in the art and science of graphic design, focusing on its application within engineering contexts. The primary objectives of this program are to:
 
@@ -36,16 +36,16 @@
         H.S.C (Science) students can take admission in the 3rd semester directly and H.S.C [Vocational (Science)] students can take admission in the 4th semester directly.</p>
 
     <h1>Lab Facilities</h1>
-    <ul style="margin-bottom:0in;margin-top:0in;" type="disc">
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Circuit Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Computer Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Electronics Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Drawing Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:     normal;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Communication Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Microwave Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Software lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Hardware Lab</span></li>
-        <li style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:     justify;line-height:normal;background:white;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Networking lab</span></li>
+    <ul >
+        <li><span>Computer Lab</span></li>
+        <li><span>Electronics Lab</span></li>
+        <li><span>Drawing Lab</span></li>
+        <li><span>Circuit Lab</span></li>
+        <li><span>Communication Lab</span></li>
+        <li><span>Microwave Lab</span></li>
+        <li><span>Software lab</span></li>
+        <li><span>Hardware Lab</span></li>
+        <li><span>Networking lab</span></li>
     </ul>
 
     <h1>Admission Guidelines</h1>
