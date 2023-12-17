@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <div class="container">
-    <div>
+    <div class="mt-4">
         <h1>Diploma In Computer Engineering Program Objective</h1>
     <p><strong> in Computer Engineering program</strong> can be a good choice for your career. Now Computers are an amazing creation of science and technology development. For the last twenty years, the computer industry has been described as the fastest growing industry worldwide. Research has shown that since 1998, most jobs have been created worldwide in computer and computer-related fields. With the development of computer and communication technology, there has been a huge change in the workplace of every government and non-government organization. Therefore, from healthcare to business, educational institutions have created endless opportunities for career building in all fields.</p>
     </div>

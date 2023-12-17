@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <div class="container">
-    <div>
+    <div class="mt-4">
         <h1>Diploma In Graphic design</h1>
     <p>1.<strong> Visual Identity Graphic Design:</strong> This type concentrates on shaping the visual identity of brands and organizations, with a primary emphasis on logo design and brand representation.<br><br>
 

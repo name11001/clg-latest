@@ -10,6 +10,7 @@ class AuthController extends Controller
     public function loginform(){
         return view('loginform');
     }
+
     public function login(Request $request){
         $request->validate([
             'email' => 'required',
@@ -24,7 +25,7 @@ class AuthController extends Controller
         }
     }
     else{
-        return back()->with('error', 'Email or password inncorrect');
+        return back()->with('message', 'Email or Password is inncoreccet');
     }
 
 

@@ -9,7 +9,7 @@
         <div class="col-md-3 d-flex">
             <div class="bg-light align-self-stretch box p-4 text-center">
                 <h3 class="mb-4">Address</h3>
-              <p>16/C-D</a>,Bashbari Road, Mohammadpur, Dhaka-1207</p>
+              <p>16/C-D, Bashbari Road, Mohammadpur, Dhaka-1207</p>
             </div>
         </div>
         <div class="col-md-3 d-flex">
@@ -68,7 +68,10 @@
           </form>
                   </div>
                   <div class="col-md-6 d-flex align-items-stretch">
-                      <div id="map"></div>
+                      <div id="map">
+                        <img src="{{asset('images/Sipi.jpg')}}" height="699px" >
+                      </div>
+
                   </div>
               </div>
           </div>

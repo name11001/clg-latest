@@ -9,6 +9,17 @@
 </head>
 <body>
 <body class="align">
+        @if (session('message'))
+        <div class="col-md mb-4 mb-md-0">
+            <div class="card">
+                <div class="alert alert-success" style="color: red" role="alert">
+                    {{session('message')}}
+                   </button>
+                  </div>
+              </div>
+            </div>
+          </div>
+            @endif
 
   <div class="grid">
     <h3 class="text--center mb ">Only For Admin or Teacher</h3>
@@ -17,13 +28,21 @@
         @csrf
 
       <div class="form__field">
+
         <label for="login__username"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use></svg><span class="hidden">Username</span></label>
         <input id="login__username" type="text" name="email" class="form__input" placeholder="Email" required>
+        @error('email')
+        <div class="error-message">{{ $message }}</div>
+    @enderror
       </div>
 
       <div class="form__field">
+
         <label for="login__password"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use></svg><span class="hidden">Password</span></label>
         <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+        @error('password')
+        <div class="error-message">{{ $message }}</div>
+    @enderror
       </div>
 
       <div class="form__field">

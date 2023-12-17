@@ -7,8 +7,6 @@
     <!-- Content -->
     @if (session('message'))
     <div class="col-md mb-4 mb-md-0">
-        <div class="card">
-          <h5 class="card-header">danger</h5>
           <div class="card-body">
             <div class="alert alert-success alert-dismissible" role="alert">
                 {{session('message')}}
