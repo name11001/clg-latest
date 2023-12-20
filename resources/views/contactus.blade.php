@@ -68,7 +68,7 @@
           </form>
                   </div>
                   <div class="col-md-6 d-flex align-items-stretch">
-                      <div id="map">
+                      <div>
                         <img src="{{asset('images/Sipi.jpg')}}" height="699px" >
                       </div>
 

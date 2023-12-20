@@ -33,7 +33,7 @@
               </div>
             </div>
             <span class="d-block mb-1">Total</span>
-            {{-- <h3 class="card-title text-nowrap mb-2">{{$teachers}}</h3> --}}
+            <h3 class="card-title text-nowrap mb-2">{{$teacher}}</h3>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
               </div>
             </div>
             <span class="d-block mb-1">Total</span>
-            {{-- <h3 class="card-title text-nowrap mb-2">{{$students}}</h3> --}}
+            <h3 class="card-title text-nowrap mb-2">{{$students}}</h3>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
               </div>
             </div>
             <span class="d-block mb-1">Total</span>
-            {{-- <h3 class="card-title text-nowrap mb-2">{{$subscribe}}</h3> --}}
+            <h3 class="card-title text-nowrap mb-2">{{$subscribe}}</h3>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
               </div>
             </div>
             <span class="d-block mb-1">Total</span>
-            {{-- <h3 class="card-title text-nowrap mb-2">{{$req}}</h3> --}}
+            <h3 class="card-title text-nowrap mb-2">{{$req}}</h3>
           </div>
         </div>
       </div>
